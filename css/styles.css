@@ -215,7 +215,7 @@ body {
 
 .section-contact {
   height: 100vh;
-  background-image: linear-gradient(to bottom, #3f3038, rgba(63, 48, 56, 0.2)), url("../images/contact-background.jpg");
+  background-image: linear-gradient(to bottom, #3f3038, rgba(63, 48, 56, 0)), url("../images/contact-background.jpg");
   background-size: cover;
   background-position: center;
   /* fit element inside box */ }
@@ -238,7 +238,7 @@ body {
     clear: both; }
 
 .section-home {
-  background: linear-gradient(to bottom, #3F3038, #3F3038);
+  background-image: linear-gradient(to bottom, #3f3038, #fdf6fa);
   color: #FDF6FA;
   background-size: cover;
   /* fit element inside box */
@@ -256,8 +256,7 @@ body {
   background-image: linear-gradient(to bottom, #3F3038, #3F3038);
   background-size: cover;
   /* fit element inside box */
-  background-position: bottom;
-  background-attachment: fixed; }
+  background-position: bottom; }
   .section-projects::after {
     content: "";
     display: table;
