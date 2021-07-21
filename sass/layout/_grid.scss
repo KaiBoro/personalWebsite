@@ -11,8 +11,9 @@
   @include clearfix;
 
   .grid-container-projects {
+    padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4rem;
+    grid-gap: 7rem;
   }
 }
