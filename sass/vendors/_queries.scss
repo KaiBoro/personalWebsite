@@ -1,0 +1,93 @@
+//@media screen and (min-width: 180em) {
+//  html {
+//    font-size: 56.25%;
+//  }
+//
+//  .section-about {
+//    height: 100%;
+//    padding-bottom: 10rem;
+//
+//    &__textbox {
+//      width: 100%;
+//    }
+//  }
+//
+//  .section-contact {
+//    height: 100%;
+//    padding-bottom: 10rem;
+//  }
+//}
+//
+@media screen and (max-width: 75em) {
+  // 1200px;
+  html {
+    font-size: 56.25%;
+  }
+
+  .row {
+    padding: 0 8rem;
+  }
+
+  .section-about {
+    height: 100%;
+    padding-bottom: 12rem;
+
+    &__textbox {
+      width: 100%;
+    }
+  }
+
+  .grid-container-projects {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .section-contact {
+    height: 100%;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  //900px
+  html {
+    font-size: 56.25%;
+  }
+
+  .row {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  //600px
+  .paragraph-card {
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 25.875em) {
+  // 414px
+  html {
+    font-size: 34.375%;
+  }
+
+  .section-home__textbox {
+    padding-top: 120%;
+  }
+
+  .grid-container-projects {
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 4rem;
+  }
+
+  .card__textbox {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  // 320px
+  html {
+    font-size: 25%;
+  }
+}

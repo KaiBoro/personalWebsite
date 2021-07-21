@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- AOS link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Font Awesome link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- Styles link -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Kai Borowski</title>
+</head>
+
+<body>
+
+  <div class="navigation js--navigation">
+    <div class="row">
+      <a class="menutoggle js--menu-close" href="#" onclick="closeMenu()">
+        <ion-icon name="close-outline"></ion-icon>
+      </a>
+    </div>
+    <div class="row">
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"> <a class="navigation__link" onclick="closeMenu()" href="#home">Home<span class="colored">.</span></a> </li>
+          <li class="navigation__item"> <a class="navigation__link" onclick="closeMenu()" href="#about">About<span class="colored">.</span></a> </li>
+          <li class="navigation__item"> <a class="navigation__link" onclick="closeMenu()" href="#projects">Projects<span class="colored">.</span></a> </li>
+          <li class="navigation__item"> <a class="navigation__link" onclick="closeMenu()" href="#contact">Contact<span class="colored">.</span></a> </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HOME SECTION -->
+  <section class="section-home" id="home">
+    <div class="row">
+      <a class="menutoggle js--menu-open" href="#" onclick="openMenu()">
+        <ion-icon name="menu-outline"></ion-icon>
+      </a>
+    </div>
+    <div class="row">
+      <div class="section-home__textbox">
+        <h1 class="heading-primary" data-aos="fade-right" data-aos-duration="2000">I'm Kai<span class="colored">.</span></h1>
+        <p class="paragraph-home" data-aos="fade-left" data-aos-duration="2000">Enthusiastic <span class="colored">Web Developer</span> in the making.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section-about" id="about">
+    <div class="row">
+      <h2 class="heading-secondary" data-aos="fade-right" data-aos-duration="2000">About<span class="colored">.</span></h2>
+      <div class="section-about__textbox" data-aos="fade-left" data-aos-duration="2000">
+        <p class="paragraph-about">
+          Hobby web developer. <br>
+          Passionate bookworm. <br>
+          Calisthenics addict. <br>
+          Traveller by heart.<br>
+          Music lover.<br><br>
+          Have a look at my <span class="colored">projects</span> below.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section-projects" id="projects">
+    <div class="row">
+      <h2 class="heading-secondary" data-aos="fade-right" data-aos-duration="2000">Projects<span class="colored">.</span></h2>
+    </div>
+    <div class="row">
+      <div class="grid-container-projects" data-aos="fade-up" data-aos-duration="2000">
+
+        <div class="card">
+          <img class="card__image" src="images/trainyourbrain-1.jpg" alt="Card 1">
+          <div class="card__textbox">
+            <h3 class="heading-tertiary">Train your brain game Desktop - 3 levels</h3>
+            <p class="paragraph-card">HTML, CSS, JS</p>
+            <a class="btn" href="https://kaiboro.github.io/trainyourbrain-1/" target="_blank">Visit</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/trainyourbrain-2.jpg" alt="Card 1">
+          <div class="card__textbox">
+            <h3 class="heading-tertiary">Train your brain game Desktop - Level up 1 by 1</h3>
+            <p class="paragraph-card">HTML, CSS, JS</p>
+            <a class="btn" href="https://kaiboro.github.io/trainyourbrain-2/" target="_blank">Visit</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/card-image-3.png" alt="Card 1">
+          <div class="card__textbox">
+            <h3 class="heading-tertiary">Frontend Mentor Challenge: Loopstudios landing page</h3>
+            <p class="paragraph-card">HTML, SCSS, JS</p>
+            <a class="btn" href="#">Visit</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__image" src="images/card-image-2.png" alt="Card 2">
+          <div class="card__textbox">
+            <h3 class="heading-tertiary">Frontend Mentor Challenge: Sunnyside agency landing page</h3>
+            <p class="paragraph-card">HTML, CSS, JS</p>
+            <a class="btn" href="#">Visit</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="card__image" src="images/card-image-3.png" alt="Card 3">
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/card-image-3.png" alt="Card 3">
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/card-image-3.png" alt="Card 3">
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/card-image-3.png" alt="Card 3">
+        </div>
+        <div class="card">
+          <img class="card__image" src="images/card-image-3.png" alt="Card 3">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section-contact" id="contact">
+    <div class="row">
+      <h2 class="heading-secondary" data-aos="fade-right" data-aos-duration="2000">Contact<span class="colored">.</span></h2>
+      <p class="paragraph-contact" data-aos="fade-left" data-aos-duration="2000">Say <span class="colored">hello</span> and let's get in touch.</p>
+      <div class="section-contact__iconbox">
+        <a class="section-contact__icon" href="https://www.linkedin.com/in/kai-borowski-13abaa213" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a class="section-contact__icon" href="https://www.xing.com/profile/Kai_Borowski2/cv" target="_blank">
+          <ion-icon name="logo-xing"></ion-icon>
+        </a>
+        <a class="section-contact__icon" href="https://www.facebook.com/kai.borowski.18/" target="_blank">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </div>
+      <!--<p>Copyright © 2021 Kai Borowski.</p>-->
+    </div>
+  </section>
+
+  <!-- AOS link -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Ionicons link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- JS link -->
+  <script type="text/javascript" src="js/script.js">
+
+  </script>
+</body>
+
+</html>

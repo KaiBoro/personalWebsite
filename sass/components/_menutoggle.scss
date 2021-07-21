@@ -1,0 +1,18 @@
+.menutoggle {
+  &:link,
+  &:visited {
+    margin-top: $margin-top-small;
+    color: $color-white;
+    font-size: 7rem;
+    float: right;
+    transition: all .1s;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+}
