@@ -19,7 +19,7 @@
 
 html {
   font-size: 62.5%;
-  /* 10px / 16px (default) => 62.5% / defined what 1rem is */ }
+  /* 10px / 16px (default) => 62.5% / defines what 1rem is */ }
 
 body {
   box-sizing: border-box; }
@@ -89,19 +89,20 @@ body {
 
 .card {
   animation-duration: 2s;
-  transition: all 0.5s;
-  box-shadow: rgba(253, 246, 250, 0.4) 0px 7px 29px 0px;
-  position: relative; }
+  transition: all 0.5s; }
   .card:hover {
     transform: scale(1.1); }
     .card:hover .card__image {
-      filter: blur(3px) brightness(0.5); }
+      filter: brightness(0.3);
+      box-shadow: none; }
     .card:hover .card__textbox {
       opacity: 1; }
   .card__image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    border-radius: 50px;
+    box-shadow: 26px 26px 53px #191316, -26px -26px 53px #654d5a;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     filter: brightness(0.8);
     transition: all 0.5s; }
   .card__textbox {
@@ -240,15 +241,19 @@ body {
     font-size: 56.25%; }
   .section-about {
     height: 100%; }
-  .grid-container-projects {
-    grid-template-columns: repeat(2, 1fr) !important; }
   .section-contact {
     height: 100%;
     padding-bottom: 10rem; } }
 
 @media screen and (max-width: 56.25em) {
   html {
-    font-size: 56.25%; } }
+    font-size: 56.25%; }
+  .grid-container-projects {
+    grid-template-columns: repeat(2, 1fr) !important; }
+  .heading-tertiary {
+    font-size: 1rem; }
+  .paragraph-card {
+    padding-bottom: 4rem; } }
 
 @media screen and (max-width: 25.875em) {
   html {
