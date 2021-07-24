@@ -1,18 +1,4 @@
-@media screen and (max-width: 75em) and (hover: none) {
-  // 1200px mobile;
-
-  .row {
-    max-width: 80%;
-  }
-
-  .grid-container-projects {
-    grid-template-columns: repeat(2, 1fr) !important;
-  }
-
-  @include mobileCard;
-}
-
-@media screen and (max-width: 75em) {
+@media only screen and (max-width: 75em) {
   // 1200px;
 
   .row {
@@ -24,34 +10,7 @@
   }
 }
 
-@media screen and (max-width: 56.25em) and (hover: none) {
-  // 900px mobile
-
-  @include mobileCard;
-
-  .grid-container-projects {
-    grid-template-columns: repeat(1, 1fr) !important;
-    grid-gap: 7rem;
-  }
-
-  .paragraph-card {
-    padding-bottom: 4rem;
-  }
-
-  .heading-tertiary {
-    font-size: 3rem;
-  }
-
-  .paragraph-card {
-    font-size: 2.5rem;
-  }
-
-  .btn {
-    font-size: 2rem;
-  }
-}
-
-@media screen and (max-width: 56.25em) {
+@media only screen and (max-width: 56.25em) {
   // 900px
 
   .grid-container-projects {
@@ -76,23 +35,7 @@
   }
 }
 
-@media screen and (max-width: 37.5em) and (hover: none) {
-  // 600px
-  html {
-    font-size: 43.75%;
-  }
-  .row {
-    max-width: 90%;
-  }
-
-  .section-home__textbox {
-    padding-top: 70%;
-  }
-
-  @include mobileCard;
-}
-
-@media screen and (max-width: 37.5em) {
+@media only screen and (max-width: 37.5em) {
   // 600px
   html {
     font-size: 43.75%;
@@ -106,20 +49,7 @@
   }
 }
 
-@media screen and (max-width: 20em) and (hover: none) {
-  // 320px
-  html {
-    font-size: 31.25%;
-  }
-
-  .row {
-    max-width: 100%;
-  }
-
-  @include mobileCard;
-}
-
-@media screen and (max-width: 20em) {
+@media only screen and (max-width: 20em) {
   // 320px
   html {
     font-size: 31.25%;
