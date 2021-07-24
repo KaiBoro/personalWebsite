@@ -1,5 +1,6 @@
 .card {
   animation-duration: 2s;
+  position: relative;
   transition: all 0.5s;
 
   &:hover {
