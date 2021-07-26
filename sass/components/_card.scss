@@ -43,7 +43,8 @@
     position: relative;
     transition: 0s;
 
-    &:hover {
+    &:hover,
+    &:active {
       transform: none;
 
       & .card__image {

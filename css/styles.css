@@ -161,12 +161,12 @@ body {
       animation-duration: 0s;
       position: relative;
       transition: 0s; }
-      .card:hover {
+      .card:hover, .card:active {
         transform: none; }
-        .card:hover .card__image {
+        .card:hover .card__image, .card:active .card__image {
           filter: blur(3px) brightness(0.6);
           box-shadow: none; }
-        .card:hover .card__textbox {
+        .card:hover .card__textbox, .card:active .card__textbox {
           opacity: 1; }
       .card__image {
         border-radius: 50px;
