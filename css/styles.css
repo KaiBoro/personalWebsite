@@ -164,7 +164,7 @@ body {
       .card:hover {
         transform: none; }
         .card:hover .card__image {
-          filter: none;
+          filter: blur(3px) brightness(0.6);
           box-shadow: none; }
         .card:hover .card__textbox {
           opacity: 1; }
