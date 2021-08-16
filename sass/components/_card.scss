@@ -1,5 +1,4 @@
 .card {
-  animation-duration: 2s;
   position: relative;
   transition: all 0.3s;
 
@@ -39,7 +38,6 @@
   }
 
   @media only screen and (hover: none) {
-    animation-duration: 0s;
     position: relative;
     transition: 0s;
 
